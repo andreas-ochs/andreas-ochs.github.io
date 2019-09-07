@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Merriweather|Bree+Seri');
+
+
+
+html, body {
+  height: 100%;
+  max-width: 100%;
+    margin: auto;
+    min-width: 500px !important;
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+  text-color: #343434;
+  scroll-behavior: smooth;
+
+
+}
+
+
+
+.headbits {
+  vertical-align: bottom;
+  float:right;
+  text-transform: uppercase;
+  margin-top:0px;
+  padding: 0px;
+}
+
+.mytext {
+  font-size: 22px;
+  font-family:"Merriweather";
+  line-height: 1.8;
+  text-align: justify;
+  vertical-align: middle;
+  padding-top: 0%;
+  margin-top: 20%;
+  text-color: #343434;
+
+}
+
+.mynav {
+  vertical-align: bottom;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  margin-top:20px;
+  padding: 0px;
+  font-family: "Lato";
+  font-size: 12px;
+  color:#fe4701;
+}
+
+.mynavdiv {
+  vertical-align: bottom;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  margin-top:80px;
+  padding: 0px;
+  font-family: "Lato";
+  font-size: 12px;
+  color:#fe4701;
+}
+
+
+.sectionHeading {
+  text-align: left;
+  font-family: "Lato";
+  font-size: 35px;
+  font-weight: 700;
+  padding-top:10px;
+  padding-left: 50px;
+  text-decoration: underline;
+  margin: auto;
+}
+
+.subsectionHeading {
+  text-align: left;
+  font-family: "Lato";
+  font-size: 25px;
+  font-weight: 700;
+  padding-top:10px;
+  padding-left: 1%;
+  text-decoration: underline;
+  margin: auto;
+}
+
+/*
+.numberCircle {
+    display:inline-block;
+    line-height:0px;
+
+    border-radius:50%;
+    border:2px solid;
+
+    font-size:32px;
+}
+
+.numberCircle span {
+    display:inline-block;
+
+    padding-top:50%;
+    padding-bottom:50%;
+
+    margin-left:8px;
+    margin-right:8px;
+}
+*/
+
+
+a {
+
+  color: #fe4701;
+  text-align: center;
+  vertical-align: bottom;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.maintxt, li.maintxt {
+
+
+  font-size: 22px;
+  font-family:"Merriweather";
+  line-height: 1.8;
+
+  list-style: square;
+  text-color: #343434;
+  /* display: none; */
+
+}
+
+
+
+.topnav {
+  width: 100%;
+  height:50px;
+  vertical-align: text-bottom;
+  position: fixed;
+  top: -50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color:#ffffff;
+  background-color: #fe4701;
+  overflow: hidden;
+  transition: top 0.3s;
+  padding-bottom: 5px;
+
+
+}
+
+ a.navmenu {
+  vertical-align: text-bottom;
+  text-align: right;
+  font-family: "Lato";
+  font-size: 12px;
+  background-color:#fe4701;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-top:0px;
+  padding-right: 2%;
+
+  bottom:0px;
+
+
+}
+
+a.navname {
+  vertical-align: text-bottom;
+  font-size:18px;
+  font-family:'Merriweather';
+  color:#ffffff;
+  background-color:#fe4701;
+
+
+
+}
+
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  vertical-align: bottom;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+
+}
+
+
+
+
+.divTable{
+	display: table;
+	width: 100%;
+  margin: 0px;
+  padding:0px;
+  height:94vh;
+  min-height: 400px;
+  /* border: 1px solid black; */
+
+}
+.divTableRow {
+	/* display: table-row; */
+  width:70%;
+  height:94vh;
+  margin: auto;
+}
+
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	/* border: 1px solid black; */
+	display: table-cell;
+	/* padding: 3px 10px; */
+  width:50%;
+
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+
+
+
+input[type=text] {
+  border: none;
+  border-bottom: 2px solid #fe4701;
+  font-size: 20px;
+  padding: 5px;
+  background-color: E4E4E4;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #fe4701;
+  background-color: #f8f8f8;
+  resize: none;
+  font-size: 20px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #fe4701;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin-top: 30px;
+  cursor: pointer;
+  width: 100%;
+  font-family: "Lato";
+  font-size: 25px;
+}
+
+form{
+align-content: center;
+font-family: "Lato";
+font-size: 25px;
+padding:5%;
+}
+
+mark{
+  background-color: rgba(254,71,1,.5);
+  display: inline-block;
+  line-height: 0em;
+  padding-bottom: 0.5em;
+  padding-right: 0.1em;
+}
+
+
+
+img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  height: 40px;
+}
+
+img:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
